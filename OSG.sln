@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1", "Lesson1\Lesson1.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson2SimpleWorld", "Lesson2SimpleWorld\Lesson2SimpleWorld.vcxproj", "{A63448E4-2A4A-489B-A4EA-D18C62458715}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson3-earthAPI", "Lesson3-earthAPI\Lesson3-earthAPI.vcxproj", "{DE088932-3683-435E-86B4-80D5D2A7B7A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{A63448E4-2A4A-489B-A4EA-D18C62458715}.Debug|Win32.Build.0 = Debug|Win32
 		{A63448E4-2A4A-489B-A4EA-D18C62458715}.Release|Win32.ActiveCfg = Release|Win32
 		{A63448E4-2A4A-489B-A4EA-D18C62458715}.Release|Win32.Build.0 = Release|Win32
+		{DE088932-3683-435E-86B4-80D5D2A7B7A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE088932-3683-435E-86B4-80D5D2A7B7A3}.Debug|Win32.Build.0 = Debug|Win32
+		{DE088932-3683-435E-86B4-80D5D2A7B7A3}.Release|Win32.ActiveCfg = Release|Win32
+		{DE088932-3683-435E-86B4-80D5D2A7B7A3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

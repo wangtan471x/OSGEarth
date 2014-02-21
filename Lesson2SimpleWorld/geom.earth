@@ -1,0 +1,22 @@
+<map name="Feature Geometry Demo" type="geocentric">  
+    <image name="world" driver="gdal">  
+        <url>C:\OSGEarth\data\world.tif</url>  
+    </image>  
+    <model name="states" driver="feature_geom">  
+        <!-- 设置OGR feature 驱动读取shapefile -->  
+        <features name="states" driver="ogr">  
+            <url>C:\OSGEarth\data\usa.shp</url>  
+        </features>  
+        <!-- Sets the name property on each geometry to the value of the "name" attribute -->  
+        <feature_name>[name]</feature_name>  
+        <!-- 外观细节-->  
+        <style type="text/css">  
+            states {  
+            stroke: #ffff00;  
+            stroke-width: 1.0;  
+            altitude-offset: 1000;  
+            }  
+        </style>  
+    </model>  
+    <lighting>false</lighting>  
+</map>  

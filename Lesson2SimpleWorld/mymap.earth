@@ -1,9 +1,15 @@
 <map name="mymap" type="geocentric" version="2">
+	<!--µ×Í¼-->
 
 	<image name="bluemarble" driver="gdal">
 		
 <url>world.tif</url>
 	
 </image>
+	<!--¸ß·Ö±æÂÊÍ¼-->
+	<elevation name="srtm" driver="gdal">
+		<url>srtm_59_05.tif</url>
+	</elevation>
+	<lighting>true</lighting>
 
 </map>

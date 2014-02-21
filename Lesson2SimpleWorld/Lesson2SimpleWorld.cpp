@@ -12,7 +12,7 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	osg::ref_ptr<osgViewer::Viewer> viewer = new osgViewer::Viewer();
 	osg::ref_ptr<osg::Group> root = new osg::Group();
-	osg::ref_ptr<osg::Node> node = osgDB::readNodeFile("mymap.earth");
+	osg::ref_ptr<osg::Node> node = osgDB::readNodeFile("geom.earth");
 
 	root->addChild(node.get());
 	osgUtil::Optimizer optimizer;
